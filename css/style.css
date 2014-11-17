@@ -299,6 +299,16 @@ body .row {
     text-shadow: 0 1px 0 rgba(255,255,255,.7);
 }
 
+.what-we-do .service h5 {
+    margin-top: 5px;
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    text-align: left;
+}
+
 .what-we-do .service p {
     padding-bottom: 10px;
     line-height: 24px;
