@@ -138,17 +138,14 @@ jQuery(document).ready(function() {
     Fancybox
 */
 $(document).ready(function() {
-    $("a.fancypdf").fancybox({ 
-        'frameWidth'            : 780, 
-        'frameHeight'           : 860, 
-        'padding'           : 0,
-        'transitionIn'          :'elastic',
-        'transitionOut'         :'elastic',
-        'overlayColor'          :'#D3D3D3',
-        'overlayOpacity'        : 0.7,
-        'zoomSpeedIn'           : 300,
-        'zoomSpeedOut'          : 300,  
-        'centerOnScroll'        : false, 
-        'hideOnContentClick'        : false 
-      });
+    // for PDF auto-detection 
+$('a[href$=".pdf"]').addClass('fancybox-pdf'); 
+        // setup FB for PDF using type iframe 
+$('a.fancybox-pdf').fancybox({ 
+        'type'                  :'iframe', 
+        'titleShow'             : false, 
+        'autoScale'             :false, 
+        'width'                 :'90%', 
+        'height'                    :'90%' 
+    });     
 })
