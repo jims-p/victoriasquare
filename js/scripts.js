@@ -105,12 +105,12 @@ jQuery(document).ready(function() {
 
         $('.contact-form form .nameLabel').html('Name');
         $('.contact-form form .emailLabel').html('Email');
-        $('.contact-form form .messageLabel').html('Message');
+        // $('.contact-form form .messageLabel').html('Message');
 
         var postdata = $('.contact-form form').serialize();
         $.ajax({
             type: 'POST',
-            url: 'assets/sendmail.php',
+            url: '../assets/sendmail.php',
             data: postdata,
             dataType: 'json',
             success: function(json) {

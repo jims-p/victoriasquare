@@ -152,6 +152,10 @@ body .row {
     padding-bottom: 50px;
 }
 
+.cover {
+    position: relative;
+}
+
 /* ----- Slider ----- */
 
 .slider {
@@ -204,6 +208,27 @@ body .row {
 }
 
 
+.covertext {
+    background: url(../images/home/carousel-white-gradient.png) 0 0 no-repeat;
+    position: absolute;
+    top: -11px;
+    width: 392px;
+    height: 358px;
+    left: 200px;
+    z-index: 55;
+}
+
+.covertext p {
+    color: #198fce;
+    font-size: 1.3rem;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 400px;
+}
+
+
 /* ----- Presentation ----- */
 
 .presentation {
@@ -226,6 +251,7 @@ body .row {
 
 .what-we-do {
     margin-top: 30px;
+    position: relative;
 }
 
 .what-we-do .service>div {
@@ -290,6 +316,32 @@ body .row {
     background-color: #198fce;
 }
 
+.box_type1 {
+    min-height: 250px;
+}
+
+.box_type2 {
+    min-height: 180px;
+}
+
+.box_type3 {
+    min-height: 280px;
+}
+
+.moreinfo {
+    position: relative;
+}
+
+.moreinfo div {
+    position:absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.what-we-do .service .moreinfo div p {
+    text-align: center;
+}
+
 .what-we-do .service h4 {
     margin-top: 5px;
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
@@ -320,7 +372,7 @@ body .row {
     position: relative;
 }
 
-.what-we-do .service a {
+/*.what-we-do .service a {
     padding: 5px 22px;
     background: #9d426b;
     color: #fff;
@@ -334,10 +386,11 @@ body .row {
     box-shadow:
         0 1px 25px 0 rgba(0,0,0,.05) inset,
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
-}
+}*/
 
 .what-we-do .service a.bigbluebutton {
     font-size: 1.1rem;
+    color: #fff;
     text-transform: uppercase;
     background-color: #0386cc;
     padding: 10px 22px;
@@ -395,7 +448,7 @@ body .row {
 }
 
 .serviceslist ul {
-    list-style-image: url(../images/home/medical-case-icon.png);
+    list-style-image: url(../images/medical-case-icon.png);
 }
 
 .serviceslist ul li {
@@ -447,7 +500,75 @@ body .row {
     box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
 }
 
+.infolettre button[type="submit"] a {
+    color: #fff;
+}
 
+
+.what-we-do .service div.attachedfile_box {
+    padding: 0;
+    background-color: #efefef;
+    position: relative;
+    min-height: 240px;
+}
+
+.what-we-do .service div.attachedfile_box:hover {
+    
+    
+}
+
+.what-we-do .service div.attachedfile_box img {
+    opacity: 1;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.what-we-do .service div.attachedfile_box img:hover {
+    opacity: 0.3;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.what-we-do .service div.attachedfile_box div:hover:after {
+    content: url(../images/whitecross_30x30.png);
+    /*width: 100%;
+    min-height: 100%;*/
+    background-color: rgba(25, 143, 206, 0.6);
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 35% 45%;
+}
+
+.what-we-do .service.pharmacie .attachedfile_box {
+    position: relative;
+}
+
+.pharmacie .attachedfile_box div img {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.what-we-do .service>div.mapbox {
+    padding: 0;
+}
+
+.crossonhover:hover {
+    opacity: 1;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
 
 .fancyboxcontainer {
     display: none;
@@ -661,7 +782,7 @@ footer .widget i {
     padding-right: 7px;
 }
 
-.horaire {
+.widget.horaire {
     width: 230px;
 }
 

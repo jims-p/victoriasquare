@@ -1,7 +1,7 @@
 <?php
 
 $default_language = "en";
-$file = "index.php";
+$file = "index.html";
 
 if (($_SERVER["HTTP_ACCEPT_LANGUAGE"] != "") && ($_SERVER["HTTP_ACCEPT_LANGUAGE"] != $default_language)) {
    $redirects = array(
