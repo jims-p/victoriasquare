@@ -175,20 +175,11 @@ body .row {
 .flexslider {
     margin-top: 45px;
     margin-bottom: 55px;
-    border: 6px solid #fff;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
-    border-radius: 0;
-    -moz-box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05),
-        0 -5px 15px 0 rgba(0,0,0,.05);
-    -webkit-box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05),
-        0 -5px 15px 0 rgba(0,0,0,.05);
-    box-shadow:
-        0 5px 15px 0 rgba(0,0,0,.05),
-        0 -5px 15px 0 rgba(0,0,0,.05);
-    height: 320px;
+    border: none;
+    -moz-box-shadow: -3px 3px 5px #cccccc;
+    -webkit-box-shadow: -3px 3px 5px #cccccc;
+    box-shadow: -3px 3px 5px #cccccc;
+    /*height: 320px;*/
     width: 450px;
 }
 
@@ -1393,6 +1384,11 @@ ul.portfolio-img li {
         margin-top: 10px;
     }
 
+    .navbar .nav.pull-right {
+        top: 0;
+        margin-right: 100px;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -1487,6 +1483,11 @@ ul.portfolio-img li {
 
     .tweet_list {
         height: 6em;
+    }
+
+    .navbar .nav.pull-right {
+        top: 5px;
+        margin-right: 100px;
     }
 
 }

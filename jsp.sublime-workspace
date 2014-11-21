@@ -1,0 +1,1169 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"firs",
+				"first-child"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"in",
+				"infolettre"
+			],
+			[
+				"lis",
+				"list-style-position"
+			],
+			[
+				"list-styl",
+				"list-style-image"
+			],
+			[
+				"header",
+				"headerlogo"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"owl",
+				"owl-mainbg"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"offset",
+				"offsetHeight"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"get",
+				"getdate"
+			],
+			[
+				"Ser",
+				"_SERVER"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fir",
+				"first-of-type"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"nav",
+				"nav-collapse"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"c",
+				"circle"
+			],
+			[
+				"sis",
+				"sinkin_sans200_x_light"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"menu",
+				"menucol2"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"sty",
+				"list-style"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"borde",
+				"border-left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"first",
+				"first-of-type"
+			],
+			[
+				"main",
+				"main_text"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"footer",
+				"footer-menu"
+			],
+			[
+				"cover",
+				"covertext"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"sub",
+				"sublevel"
+			],
+			[
+				"top",
+				"top-logo"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"cus",
+				"custom_list"
+			],
+			[
+				"colum",
+				"columns_custom_list"
+			],
+			[
+				"ul",
+				"ul"
+			],
+			[
+				"h",
+				"head	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "fr/index.html",
+			"settings":
+			{
+				"buffer_size": 13250,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fr/services.html",
+			"settings":
+			{
+				"buffer_size": 17032,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "fr/contact.html",
+			"settings":
+			{
+				"buffer_size": 11541,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/sendmail.php",
+			"settings":
+			{
+				"buffer_size": 2121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "en/contact.html",
+			"settings":
+			{
+				"buffer_size": 11383,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "en/index.html",
+			"settings":
+			{
+				"buffer_size": 13213,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "en/services.html",
+			"settings":
+			{
+				"buffer_size": 16735,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 32686,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/jquery.fancybox-1.3.4.js",
+			"settings":
+			{
+				"buffer_size": 28243,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 4405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/jquery.fancybox-1.3.4.css",
+			"settings":
+			{
+				"buffer_size": 8977,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: return"
+			],
+			[
+				"Snippet: c",
+				"Snippet: <?php echo … ?>"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Marc/Dropbox/Production/Victoria Square Medical Center Site Details/Victoria Medical Site/public_html/contact.html",
+		"/C/wamp/www/___projects/victoriasquare/index.php",
+		"/C/wamp/www/index.html",
+		"/C/wamp/www/___projects/Ebenisterie/module/order_roomcreateform_step6.jsp",
+		"/C/wamp/www/___projects/Ebenisterie/order.jsp",
+		"/C/wamp/www/contact.html",
+		"/C/wamp/www/___projects/Ebenisterie/module/head.jsp",
+		"/C/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/ebenisterie/acabinet/module/head.jsp.bak",
+		"/C/wamp/www/assets/js/jquery.flexslider.js",
+		"/C/wamp/www/~shindosa/include/mainmenu.inc.php",
+		"/C/wamp/www/~shindosa/css/layout.css",
+		"/C/wamp/www/___projects/Ebenisterie/c_lacquer_colorselect.jsp",
+		"/C/wamp/www/___projects/Ebenisterie/melamine_colorselect.jsp",
+		"/C/wamp/www/___projects/Ebenisterie/c_lacquer_colorselect.jsp.back",
+		"/C/wamp/www/assets/bootstrap/css/bootstrap.min.css",
+		"/C/wamp/www/victoria medical/index.html",
+		"/C/wamp/www/victoria medical/assets/css/style.css",
+		"/C/wamp/www/~shindosa/parking/cornerguard/index.php",
+		"/C/wamp/www/~shindosa/parking/carstopper/index.php",
+		"/C/wamp/www/~shindosa/traffic/allsidereflectivedelineatorpost/index.php",
+		"/C/wamp/www/~shindosa/traffic/trafficcone/index.php",
+		"/C/wamp/www/~shindosa/traffic/urethaneroadfence/index.php",
+		"/C/wamp/www/~shindosa/traffic/speeddisplay/index.php",
+		"/C/wamp/www/~shindosa/traffic/safetyguiderobot/index.php",
+		"/C/wamp/www/~shindosa/traffic/roadstud/index.php",
+		"/C/wamp/www/~shindosa/traffic/plasticjerseybarrier/index.php",
+		"/C/wamp/www/~shindosa/traffic/laneblock/index.php",
+		"/C/wamp/www/~shindosa/traffic/assemblyflexibledelineatorpost/index.php",
+		"/C/wamp/www/~shindosa/traffic/delineator/index.php",
+		"/C/wamp/www/~shindosa/traffic/flexibledelineatorpost/index.php",
+		"/C/wamp/www/~shindosa/traffic/antiglareboard/index.php",
+		"/C/wamp/www/~shindosa/traffic/speedhump/index.php",
+		"/C/wamp/www/~shindosa/traffic/trafficconvexmirror/index.php",
+		"/C/wamp/www/sitemap.php",
+		"/C/wamp/www/~shindosa/css/main.css",
+		"/C/wamp/www/~shindosa/index.php",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel.2.0.0-beta.2.4/owl.carousel.js",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel/demos/one.html",
+		"/C/wamp/www/~shindosa/guardrails/uppersectionofconcrete/index.php",
+		"/C/wamp/www/~shindosa/guardrails/opentypeforbridge/index.php",
+		"/C/wamp/www/~shindosa/guardrails/opentypeformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/guardrails/opentypeforroadside/index.php",
+		"/C/wamp/www/~shindosa/guardrails/flexibleforroadside/index.php",
+		"/C/wamp/www/~shindosa/guardrails/flexibleformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/guardrails/flexibleforbridge/index.php",
+		"/C/wamp/www/~shindosa/guardrails/standardforroadside/index.php",
+		"/C/wamp/www/~shindosa/guardrails/standardformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/aboutus.php",
+		"/C/wamp/www/~shindosa/sitemap.php",
+		"/C/wamp/www/~shindosa/sub.php",
+		"/C/wamp/www/~shindosa/construction/plasticbarricade/index.php",
+		"/C/wamp/www/~shindosa/construction/safetybarricade/index.php",
+		"/C/wamp/www/~shindosa/construction/safetydrum/index.php",
+		"/C/wamp/www/~shindosa/construction/signboard/index.php",
+		"/C/wamp/www/~shindosa/construction/signboardstand/index.php",
+		"/C/wamp/www/~shindosa/construction/smartfence/index.php",
+		"/C/wamp/www/~shindosa/impact/ccsiiparallel/index.php",
+		"/C/wamp/www/~shindosa/impact/ccsinonparallel/index.php",
+		"/C/wamp/www/~shindosa/impact/ccsiparallel/index.php",
+		"/C/wamp/www/~shindosa/impact/endterminal/index.php",
+		"/C/wamp/www/~shindosa/impact/honeycombsystem/index.php",
+		"/C/wamp/www/~shindosa/impact/pcs123/index.php",
+		"/C/wamp/www/~shindosa/impact/rollingguardbarrier/index.php",
+		"/C/wamp/www/~shindosa/impact/tma/index.php",
+		"/C/wamp/www/~shindosa/parking/parkingcurb/index.php",
+		"/C/wamp/www/~shindosa/parking/speedhump/index.php",
+		"/C/wamp/www/~shindosa/parking/trafficconvexmirror/index.php",
+		"/C/wamp/www/~shindosa/include/footer.inc.php",
+		"/C/wamp/www/~shindosa/css/sub.css",
+		"/C/wamp/www/~shindosa/guardrail/flexibleforbridge/index.php",
+		"/C/wamp/www/~shindosa/guardrail/opentypeformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/guardrail/opentypeforroadside/index.php",
+		"/C/wamp/www/~shindosa/guardrail/standardformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/guardrail/standardforroadside/index.php",
+		"/C/wamp/www/~shindosa/guardrail/uppersectionofconcrete/index.php",
+		"/C/wamp/www/~shindosa/guardrail/opentypeforbridge/index.php",
+		"/C/wamp/www/~shindosa/guardrail/flexibleformedianstrip/index.php",
+		"/C/wamp/www/~shindosa/guardrail/flexibleforroadside/index.php",
+		"/C/wamp/www/~shindosa/css/nyroModal.css",
+		"/C/wamp/www/~shindosa/css/microfiche.css",
+		"/C/wamp/www/~shindosa/css/contactform.css",
+		"/C/wamp/www/~shindosa/contactus.php",
+		"/C/wamp/www/~shindosa/include/header.inc.php",
+		"/C/wamp/www/form_register.jsp",
+		"/C/wamp/www/order.jsp",
+		"/C/wamp/www/module/head.jsp.bak.jsp",
+		"/C/wamp/www/module/custom.jsp",
+		"/C/wamp/www/form_login.jsp",
+		"/C/wamp/www/style2.css",
+		"/C/wamp/www/design/index.html",
+		"/C/wamp/www/module/foot.jsp",
+		"/C/wamp/www/module/index.jsp",
+		"/C/Users/Marc/AppData/Local/Temp/fz3temp-1/contact.php",
+		"/C/Users/Marc/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Marc/Desktop/.bash_logout",
+		"/C/Users/Marc/Desktop/.shadow",
+		"/C/Users/Marc/Desktop/.bashrc",
+		"/C/Users/Marc/Desktop/.htaccess",
+		"/C/Users/Marc/Desktop/.bash_profile",
+		"/C/wamp/www/floorheatingsystem.php",
+		"/C/wamp/www/heatingcable.php",
+		"/C/wamp/www/about.html",
+		"/C/wamp/www/___projects/bimetalic/index.php",
+		"/C/wamp/www/css/owl-carousel.css",
+		"/C/wamp/www/contact.php",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel/owl-carousel/owl.theme.css",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel/owl-carousel/owl.carousel.css",
+		"/C/Users/Marc/Documents/projects/store/js/owl.carousel/owl-carousel/owl.transitions.css",
+		"/C/wamp/www/js/contact_me.js",
+		"/C/wamp/www/ptc-heating.php",
+		"/C/wamp/www/ondolheating.php",
+		"/C/wamp/www/underfloorheating.php",
+		"/C/wamp/www/homeheatingsystems.php",
+		"/C/wamp/www/___projects/Agrimetal EN/include/head.inc.php",
+		"/C/wamp/www/infloorheating.php",
+		"/C/Users/Marc/Documents/projects/store/templates/modern-business/modern-business/js/contact_me.js",
+		"/C/Users/Marc/Documents/projects/store/templates/modern-business/modern-business/contact.html",
+		"/C/wamp/www/bin/contact_me.php",
+		"/C/wamp/www/include/footer.inc.php",
+		"/C/wamp/www/services.html",
+		"/C/wamp/www/ondulheating.php",
+		"/C/wamp/www/sidebar.html",
+		"/C/wamp/www/___projects/Agrimetal EN/contact.php",
+		"/C/wamp/www/full-width.html",
+		"/C/wamp/www/Agrimetal FR/include/head.inc.php",
+		"/C/wamp/www/include/headerbanner.inc.php",
+		"/C/wamp/www/bimetalic/include/head.inc.php"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"zoom",
+			"h1",
+			"Step 7",
+			"span10",
+			"thumbnail",
+			"thumbnails",
+			"controlNAV",
+			"padding-top:14px",
+			"/guardrail",
+			"/~shindosa/",
+			"menu",
+			"<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"10\" bgcolor=\"#FFFFFF\">",
+			"head",
+			"BottomLoginForm",
+			"&rsquo;",
+			"transform",
+			"caption",
+			"col-sm-3 col-xs-6 ",
+			"clear",
+			"info",
+			"ê",
+			"è",
+			"é",
+			"à",
+			"ê",
+			"é",
+			"è",
+			"à",
+			"è",
+			"ê",
+			"é",
+			"ê",
+			"à",
+			"é",
+			"î",
+			"É",
+			"è",
+			"É",
+			"à",
+			"ê",
+			".left",
+			"li.left",
+			"left",
+			"overflow",
+			"hover",
+			"ee3423",
+			"hover",
+			"footer",
+			"header",
+			"label",
+			"form",
+			"active",
+			"navToggle",
+			"717074",
+			"Source Sans",
+			"Lato",
+			"\"inner",
+			"inner",
+			"ul",
+			"<br />",
+			"gif",
+			"sub/",
+			"uppersectionofoconcrete",
+			"<?php include ($_SERVER['DOCUMENT_ROOT'].'/~shindosa/",
+			"'../../",
+			"<?php include ($_SERVER['DOCUMENT_ROOT'].'/~shindosa/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"'/",
+			"\"/",
+			"../img/",
+			"width",
+			"230",
+			"138",
+			"ff0000",
+			"product/",
+			"gallery1",
+			"bmp",
+			"jpg",
+			"Plastic Jersey Barrier (BIG)",
+			"Detail View",
+			"sub_con_div",
+			"gif",
+			"common",
+			"png",
+			".php",
+			"/images/menu1.jpg",
+			"images/",
+			"/product/",
+			"../../",
+			"/product/",
+			"FlyMenu",
+			"160",
+			"<br><span>",
+			"</span>",
+			"#footer-menu li a",
+			"/images",
+			"withimage",
+			"input",
+			"f03629",
+			"2d2a26",
+			"image8",
+			"active",
+			"helvetica_neueregular",
+			"/products/",
+			"/~delidisp/",
+			"../",
+			"./",
+			"/~delidisp/~delidisp/",
+			"\"/",
+			"'/",
+			"(/",
+			"'/",
+			"/products",
+			"/include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"height: 774px",
+			"/guardrails",
+			"/",
+			"'",
+			"",
+			"&ecirc;",
+			"&egrave;",
+			"&eacute;",
+			"&agrave;",
+			"&ecirc;",
+			"&eacute;",
+			"&egrave;",
+			"&agrave;",
+			"&egrave;",
+			"&ecirc;",
+			"&eacute;",
+			"&ecirc;",
+			"&agrave;",
+			"&eacute;",
+			"&icirc;",
+			"&eacute;",
+			"&egrave;",
+			"&Eacute;",
+			"&agrave;",
+			"&ecirc; ",
+			"f4421a",
+			"1e7bba",
+			"Open Sans",
+			"Source Sans",
+			"\"inner innerleft",
+			"",
+			"jpg",
+			"",
+			"uppersectionofconcrete",
+			"<?php include ('../../",
+			"'",
+			"<?php include ('../../",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"'/~shindosa/",
+			"\"/~shindosa/",
+			"/images/common/",
+			"200",
+			"26438f",
+			"/",
+			"gallery3",
+			"gallery2",
+			"jpg",
+			"bmp",
+			"Plastic Jersey Barrier (MEDIUM)",
+			"Plastic Jersey Barrier (BIG)",
+			"jpg",
+			"/index.php",
+			"/images/common/menu1.jpg",
+			"/images/",
+			"/",
+			"productsmenu",
+			"111",
+			"<a href=\"#\">",
+			"</a>",
+			".menu span",
+			"images",
+			"ff0000",
+			"/",
+			"../../",
+			"../",
+			"/~delidisp/",
+			"\"/~delidisp/",
+			"'/~delidisp/",
+			"(/~delidisp/",
+			"'/~delidisp/",
+			"~delidisp/products",
+			"~delidisp/include",
+			"81bc00",
+			"'Helvetica', 'Arial'",
+			"visit",
+			"plasticase@neoinformatics.com",
+			"menu",
+			"http://evermarketer.com/atrue",
+			"helvetica_neueregular",
+			"/",
+			"Meditsinskoye_obsledovaniye",
+			"meditsinskiye_osmotry",
+			"issledovaniye_raka",
+			"/",
+			"",
+			"'Open Sans', 'Trebuchet MS', 'Helvetica', sans-serif;",
+			"'lane_-_narrowregular', 'Trebuchet MS', 'Helvetica', sans-serif;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "fr/index.html",
+					"settings":
+					{
+						"buffer_size": 13250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4139,
+								4139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2626.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fr/services.html",
+					"settings":
+					{
+						"buffer_size": 17032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4122,
+								4122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2783.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "fr/contact.html",
+					"settings":
+					{
+						"buffer_size": 11541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8403,
+								8849
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3009.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/sendmail.php",
+					"settings":
+					{
+						"buffer_size": 2121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1218,
+								1218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "en/contact.html",
+					"settings":
+					{
+						"buffer_size": 11383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10626,
+								10626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3174.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "en/index.html",
+					"settings":
+					{
+						"buffer_size": 13213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10331,
+								10331
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2658.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "en/services.html",
+					"settings":
+					{
+						"buffer_size": 16735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5092,
+								5092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2351.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 32686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10349,
+								10349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7013.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/jquery.fancybox-1.3.4.js",
+					"settings":
+					{
+						"buffer_size": 28243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23615,
+								23619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 14161.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 4405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2723,
+								2723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/jquery.fancybox-1.3.4.css",
+					"settings":
+					{
+						"buffer_size": 8977,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5455,
+								5455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
