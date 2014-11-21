@@ -236,7 +236,7 @@ body .row {
     /*min-height: 200px;*/
 }
 
-.what-we-do .service:hover {
+/*.what-we-do .service:hover {
     box-shadow:
         0 5px 15px 0 rgba(0,0,0,.05),
         0 1px 25px 0 rgba(0,0,0,.05) inset,
@@ -245,7 +245,7 @@ body .row {
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     -ms-transition: all .5s;
-}
+}*/
 
 .what-we-do .service .icon-awesome {
     margin-top: 15px;
@@ -388,17 +388,30 @@ body .row {
     width: 400px;
 }
 
-.serviceslist ul {
-    list-style-image: url(../images/home/medical-case-icon.png);
+.serviceslist ul, .list_type2 ul {
     color: #000;
     font-size: 0.9rem;
     text-align: left;
+}
+
+.serviceslist ul {
+    list-style-image: url(../images/home/medical-case-icon.png);
 }
 
 .serviceslist ul li {
     vertical-align: top;
     line-height: 21px;
     height: 30px;
+}
+
+.list_type2 ul {
+    list-style-image: url(../images/medical-cross-icon.png);
+}
+
+.list_type2 ul li {
+    vertical-align: top;
+    height: 30px;
+    line-height: 14px;
 }
 
 .infolettre form {
@@ -433,6 +446,14 @@ body .row {
     -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
     box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
 }
+
+
+
+.fancyboxcontainer {
+    display: none;
+}
+
+
 
 /* ----- Portfolio ----- */
 
@@ -638,6 +659,10 @@ footer .widget p {
 
 footer .widget i {
     padding-right: 7px;
+}
+
+.horaire {
+    width: 230px;
 }
 
 .horaire div:first-of-type {
