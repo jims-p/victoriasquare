@@ -22,6 +22,31 @@
         <link rel="stylesheet" href="../css/font-awesome.css">
         <link rel="stylesheet" href="../css/style.css">
 
+        <SCRIPT LANGUAGE=JavaScript>
+            function butCheckForm_onclick()
+            {
+               var myForm = document.form1;
+               
+               if (myForm.email.value == "" || myForm.name.value == "")
+               {
+                  
+                  if (myForm.email.value == "")
+                  {
+                     alert("Email : missing value!");
+                     myForm.email.focus();
+                  }
+                  else
+                  {
+                     alert("Name : missing value!");
+                     myForm.name.focus();
+                  }
+               }
+               else 
+                myForm.submit();
+             
+            }
+        </SCRIPT>
+
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -50,7 +75,7 @@
                                 <span class="icon-bar"></span>
                             </a>
                             <h1>
-                                <a class="brand" href="/fr/index.html"></a>
+                                <a class="brand" href="../fr/index.html"></a>
                             </h1>
                             <div class="nav-collapse collapse">
                                 <ul class="nav pull-right">
@@ -98,7 +123,9 @@
 
                             </ul>
                             <div class="covertext">
-                                <p>Les inscriptions pour un médecin de famille <b>reprendront bientôt</b><br><br>Merci de laisser vos coordonnées dans <b>l'info-lettre</b> (voir ci-bas)</p>
+                                <p><b>Clinique Sans Rendez-vous</b> tous les jours de la semaine!<br><br>
+                                    Nouveau! Sans Rendez-vous <b>tous les lundis soirs</b> jusqu'a 20:00.<br>
+                                    <br>Les inscriptions pour un médecin de famille <b>reprendront bientôt</b><br><br>Merci de laisser vos coordonnées dans <b>l'info-lettre</b> (voir ci-bas)</p>
                             </div>
                         </div>
                     </div>
@@ -133,23 +160,23 @@
                         <div class="serviceslist">
                             <ul>
                                 <div class="span2">
-                                    <li>Médecine d'Urgence</li>
-                                    <li>Médecine Familiale</li>
-                                    <li>Prélèvements Sanguins</li>
-                                    <li>Vaccination</li>
-                                    <li>Injection</li>
+                                    <a href="../fr/services.html#medical-emergency"><li>Médecine d'Urgence</li></a>
+                                    <a href="../fr/services.html#family-medecine"><li>Médecine Familiale</li></a>
+                                    <a href="../fr/services.html#blood-test"><li>Prélèvements Sanguins</li></a>
+                                    <a href="../fr/services.html#vaccination"><li>Vaccination</li></a>
+                                    <a href="../fr/services.html#vaccination"><li>Injection</li></a>
                                 </div>
                                 <div class="span2">
-                                    <li>Médecine de Voyage</li>
-                                    <li>Santé de la Femme</li>
-                                    <li>Oto-rhino-laryngologie</li>
-                                    <li>Cardiologie</li>
-                                    <li>Consultation de Chirurgie plastique</li>
+                                    <a href="../fr/services.html#travel-health"><li>Médecine de Voyage</li></a>
+                                    <a href="../fr/services.html#womens-health"><li>Santé de la Femme</li></a>
+                                    <a href="../fr/services.html#orl"><li>Oto-rhino-laryngologie</li></a>
+                                    <a href="../fr/services.html#cardiology"><li>Cardiologie</li></a>
+                                    <a href="../fr/services.html#plastic-surgery"><li>Consultation de Chirurgie plastique</li></a>
                                 </div>
                                 <div class="span2">
-                                    <li>Physiothérapie</li>
-                                    <li>Nutrition / Contrôle du Poids</li>
-                                    <li>Pharmacie</li>
+                                    <a href="../fr/services.html#physio"><li>Physiothérapie</li></a>
+                                    <a href="../fr/services.html#nutrition"><li>Nutrition / Contrôle du Poids</li></a>
+                                    <a href="../en/services.html#pharmacy"><li>Pharmacie</li></a>
                                 </div>
                                 <div class="clear"></div>
                             </ul>
@@ -167,12 +194,12 @@
                                 <p>Inscrivez-vous en ligne pour recevoir des nouvelles de la clinique concernant l’ouverture des inscriptions pour un médecin de famille et, les nouveau services à venir.</p>
                             </div>
                             <div class="span4 contact-form ">
-                                <form method="post" action="../assets/sendmail.php">
+                                <form method="post" action="../assets/add.jsp" name="form1">
                                     <!-- <label for="name" class="nameLabel">Name</label> -->
                                       <input id="name" type="text" name="name" placeholder="Nom / Prénom">
                                     <!-- <label for="email" class="emailLabel">Email</label> -->
                                       <input id="email" type="text" name="email" placeholder="Email">
-                                    <button type="submit"><a href="mailto:victoriasquaremedicalcenter@neoinformatics.com">Envoyer</a></button>
+                                    <button type="submit" onclick="butCheckForm_onclick()">Envoyer</button>
                                 </form>
                             </div>
                             <div class="clear"></div>

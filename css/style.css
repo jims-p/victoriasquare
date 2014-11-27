@@ -20,7 +20,7 @@ body {
 .violet { color: #9d426b; }
 
 a {
-    color: #9d426b;
+    color: ##198fce;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -214,7 +214,7 @@ body .row {
     font-size: 1.3rem;
     text-align: left;
     position: absolute;
-    top: 100px;
+    top: 60px;
     left: 300px;
     width: 400px;
 }
@@ -448,6 +448,10 @@ body .row {
     height: 30px;
 }
 
+.serviceslist a {
+    color: black;
+}
+
 .list_type2 ul {
     list-style-image: url(../images/medical-cross-icon.png);
 }
@@ -494,7 +498,75 @@ body .row {
 .infolettre button[type="submit"] a {
     color: #fff;
 }
+<<<<<<< HEAD
 
+
+.what-we-do .service div.attachedfile_box {
+    padding: 0;
+    background-color: #efefef;
+    position: relative;
+    min-height: 240px;
+}
+
+.what-we-do .service div.attachedfile_box:hover {
+    
+    
+}
+
+.what-we-do .service div.attachedfile_box img {
+    opacity: 1;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.what-we-do .service div.attachedfile_box img:hover {
+    opacity: 0.3;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
+
+.what-we-do .service div.attachedfile_box div:hover:after {
+    content: url(../images/whitecross_30x30.png);
+    /*width: 100%;
+    min-height: 100%;*/
+    background-color: rgba(25, 143, 206, 0.6);
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 35% 45%;
+}
+
+.what-we-do .service.pharmacie .attachedfile_box {
+    position: relative;
+}
+
+.pharmacie .attachedfile_box div img {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.what-we-do .service>div.mapbox {
+    padding: 0;
+}
+=======
+>>>>>>> dbbbfbee688da5f354842f436f2f32aef17408cf
+
+.crossonhover:hover {
+    opacity: 1;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -ms-transition: all .5s;
+}
 
 .what-we-do .service div.attachedfile_box {
     padding: 0;
@@ -743,16 +815,16 @@ footer {
 footer .container {
     box-shadow: -3px 3px 5px #cccccc;
     background: #fff url(../images/bottom-wave.png) left bottom no-repeat;
-    padding-bottom: 15px;
+    /*padding-bottom: 15px;*/
 }
 
 footer .row:first-of-type {
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     margin-left: 300px;
 }
 
 footer .widget {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     text-align: left;
 }
 
@@ -839,8 +911,10 @@ footer .footer-border {
 }
 
 footer .copyright {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     text-align: left;
+    position: relative;
+    top: -15px;
 }
 
 footer .social {
@@ -1492,12 +1566,77 @@ ul.portfolio-img li {
 
 }
 
+
+
+
+@media (max-width: 979px) {
+
+    .flexslider {
+        width: auto;
+        box-shadow: none;
+    }
+
+    .covertext {
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 0;
+        left: 0;
+    }
+
+    .covertext p {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .box_type1 {
+    min-height: 0;
+    }
+
+    .box_type2 {
+        min-height: 0;
+    }
+
+    .box_type3 {
+        min-height: 0;
+    }
+    .moreinfo div {
+        position:relative;
+        top: 0;
+        left: 0;
+    }
+
+    .serviceslist ul li {
+        height: auto;
+    }
+
+    .serviceslist .span2, .infolettre .span4:not(:first-child), .infolettre input[type="text"] {
+        width: 100%;
+    }
+
+    footer .row:first-of-type {
+        margin-left: 30px; 
+        margin-bottom: 140px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+.span3 {
+float: none;
+display: block;
+width: 50%;
+margin-left: 0;
+margin: auto;
+}
+
+
 @media (max-width: 480px) {
 
     .tweet_list {
         height: 10em;
     }
-
 }
-
-
