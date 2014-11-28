@@ -1644,3 +1644,6 @@ margin: auto;
         height: 10em;
     }
 }
+
+/*google map*/
+.gm-style-cc { display:none; }
