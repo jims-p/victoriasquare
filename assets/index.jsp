@@ -1,8 +1,8 @@
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>Utilisateur Victoria</title>
-<SCRIPT LANGUAGE=JavaScript>
+<script type="text/javascript">
 function butCheckForm_onclick()
 {
    var myForm = document.form1;
@@ -25,7 +25,7 @@ function butCheckForm_onclick()
     myForm.submit();
  
 }
-</SCRIPT>
+</script>
 </head>
 <body>
 <h1>Add Info</h1>

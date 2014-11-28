@@ -222,60 +222,6 @@
                     </div>
                 </div>
             </div>
-<!--             <div class="what-we-do container">
-                <div class="row">
-                    <div class="service span10">
-                        <h1 class="pink">Liste des Services</h1>
-                        <div class="serviceslist">
-                            <ul>
-                                <div class="span2">
-                                    <li>Médecine d'Urgence</li>
-                                    <li>Médecine Familiale</li>
-                                    <li>Prélèvements Sanguins</li>
-                                    <li>Vaccination</li>
-                                    <li>Injection</li>
-                                </div>
-                                <div class="span2">
-                                    <li>Médecine de Voyage</li>
-                                    <li>Santé de la Femme</li>
-                                    <li>Oto-rhino-laryngologie</li>
-                                    <li>Cardiologie</li>
-                                    <li>Consultation de Chirurgie plastique</li>
-                                </div>
-                                <div class="span2">
-                                    <li>Physiothérapie</li>
-                                    <li>Nutrition / Contrôle du Poids</li>
-                                    <li>Pharmacie</li>
-                                </div>
-                                <div class="clear"></div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-<!--             <div class="what-we-do container">
-                <div class="row">
-                    <div class="service span10">
-                        <h1 class="blue">Info Lettre Médicale</h1>
-                        <div class="infolettre">
-                            <div class="span4">
-                                <p>Inscrivez-vous en ligne pour recevoir des nouvelles de la clinique concernant l’ouverture des inscriptions pour un médecin de famille et, les nouveau services à venir.</p>
-                            </div>
-                            <div class="span4 contact-form ">
-                                <form method="post" action="/assets/sendmail.php">
-
-                                      <input id="name" type="text" name="name" placeholder="Nom / Prénom">
-
-                                      <input id="email" type="text" name="email" placeholder="Email">
-                                    <button type="submit">Envoyer</button>
-                                </form>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
 
         </div>
@@ -339,13 +285,28 @@
         <script src="../js/bootstrap.min.js"></script>
         <script src="../js/jquery.flexslider.js"></script>
         <script src="../js/jquery.fancybox-1.3.4.js"></script>
-        <script src="../js/jquery.tweet.js"></script>
-        <script src="../js/jflickrfeed.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="../js/jquery.ui.map.min.js"></script>
-        <script src="../js/jquery.quicksand.js"></script>
-        <script src="../js/jquery.prettyPhoto.js"></script>
         <script src="../js/scripts.js"></script>
+        <script type="text/javascript">
+            
+
+            /*
+                Fancybox
+            */
+            $(document).ready(function() {
+                // for PDF auto-detection 
+                $('a[href$=".pdf"]').addClass('fancybox-pdf'); 
+                // setup FB for PDF using type iframe 
+                $('a.fancybox-pdf').fancybox({ 
+                        'type'                  :'iframe', 
+                        'titleShow'             : false, 
+                        'autoScale'             : false, 
+                        'width'                 :'90%', 
+                        'height'                :'90%' 
+                    });     
+            })
+        </script>
 
     </body>
 

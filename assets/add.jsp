@@ -46,6 +46,6 @@ out.println("Failed");
  
 }
  
-response.sendRedirect("../index.html");
+response.sendRedirect("index.php");
  
 %>

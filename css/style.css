@@ -272,7 +272,9 @@ body .row {
 }
 
 .what-we-do .service h1 {
-    font: 500 1.6rem 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
     color: #fff;
     text-align: left;
     padding: 5px 10px;
@@ -282,7 +284,9 @@ body .row {
 }
 
 .what-we-do .service h2 {
-    font: 500 1.3rem 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
     color: #fff;
     text-align: left;
     padding: 5px 10px;
