@@ -80,6 +80,9 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="nav-lng en">
+                                <a class="button-lng" href="../en/services.html">EN</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,8 +109,12 @@
                     <div class="service span3">
                         <h2 class="green" id="medical-emergency">Médecine d'urgence</h2>
                         <div>
-                            <p>Le Centre Médical Square Victoria offre un service de Sans Rendez-vous tous les jours.<br><br>Pour vous incrire, veuillez cliquer ici:<br><br><br></p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <p>Le Centre Médical Square Victoria offre un service de Sans Rendez-vous tous les jours.<br><br>Pour vous incrire, veuillez cliquer ici:<br><br></p>
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                     <div class="service span3">

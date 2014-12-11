@@ -80,6 +80,9 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="nav-lng fr">
+                                <a class="button-lng" href="../fr/services.html">FR</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,20 +109,24 @@
                     <div class="service span3">
                         <h2 class="green" id="medical-emergency">Medical Emergency</h2>
                         <div>
-                            <p>Square Victoria Medical Center offers a walk-in clinic every week day.<br><br>To register, please click here:<br><br><br></p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <p>Square Victoria Medical Center offers a walk-in clinic every week day.<br><br>To register, please click here:<br></p>
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                     <div class="service span3">
                         <h2 class="green" id="family-medecine">Family Medicine</h2>
                         <div>
-                            <p>Square Victoria Medical Center has family physicians in limited availability. To know the next inscription dates for a family physician, please register with our newsletter.</p><br><br>
+                            <p>Square Victoria Medical Center has family physicians in limited availability. To know the next inscription dates for a family physician, please register with our newsletter.</p><br>
                         </div>
                     </div>
                     <div class="service span3">
                         <h2 class="green" id="blood-test">Blood Test Center</h2>
                         <div>
-                            <p>Square Victoria Medical Center has a blood test center  in collaboration with CDL Laboratories.<br><br>This service is available every day with or without appointment.</p><br><br>
+                            <p>Square Victoria Medical Center has a blood test center  in collaboration with CDL Laboratories.<br><br>This service is available every day with or without appointment.</p><br>
                         </div>
                     </div>
                 </div>

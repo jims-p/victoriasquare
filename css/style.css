@@ -20,7 +20,7 @@ body {
 .violet { color: #9d426b; }
 
 a {
-    color: ##198fce;
+    color: #198fce;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -142,6 +142,26 @@ body .row {
     /*top: 70px;*/
     top: 120px;
     margin-right: 100px;
+}
+
+.nav-lng {
+    position: relative;
+}
+
+.nav-lng .button-lng {
+    position: absolute;
+    
+    background: white;
+    padding: 20px 15px 20px 10px;
+    box-shadow: 0 -5px 15px 0 rgba(0,0,0,.05) inset;
+}
+
+.nav-lng.en .button-lng {
+    right: -31px;
+}
+
+.nav-lng.fr .button-lng {
+    right: -30px;
 }
 
 
@@ -383,19 +403,29 @@ body .row {
         0 -1px 25px 0 rgba(0,0,0,.05) inset;
 }*/
 
-.what-we-do .service a.bigbluebutton {
+.what-we-do .service form {
+    margin: 10px;
+}
+
+.what-we-do .service a.bigbluebutton, .what-we-do .service input[type="submit"].bigbluebutton {
     font-size: 1.1rem;
     color: #fff;
     text-transform: uppercase;
     background-color: #0386cc;
     padding: 10px 22px;
     border-radius: 10px;
+    border: none;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
     -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 3px 0px 0px #205c73, 0px 5px 5px #999;
     -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 3px 0px 0px #205c73, 0px 5px 5px #999;
     box-shadow: inset 0px 1px 0px #3e9cbf, 0px 3px 0px 0px #205c73, 0px 5px 5px #999;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
 }
 
-.what-we-do .service a.bigbluebutton:hover {
+.what-we-do .service a.bigbluebutton:hover, .what-we-do .service input[type="submit"].bigbluebutton:hover {
     /*reduce the size of the shadow to give a pushed effect*/
     -webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
     -moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
@@ -1574,6 +1604,14 @@ ul.portfolio-img li {
 
 
 @media (max-width: 979px) {
+
+    .nav-lng {
+        top: -60px;
+    }
+
+    .nav-lng.en .button-lng, .nav-lng.fr .button-lng {
+        right: 0;
+    }
 
     .flexslider {
         width: auto;

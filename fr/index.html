@@ -103,6 +103,9 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="nav-lng en">
+                                <a class="button-lng" href="../en/index.html">EN</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,7 +155,11 @@
                         <h1 class="orange">Rendez-vous avec la Clinique</h1>
                         <div>
                             <p>Vous pourrez bientôt prendre un rendez-vous avec votre médecin de famille et/ou aux autres services à partir de cet onglet. Veuillez vous inscrire à l'info-lettre pour être avisé du moment où ce service de rendez-vous sera disponible.<br><br></p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                     <div class="service span5">
@@ -160,7 +167,11 @@
                         <div>
                             <p>Cliquez ici pour vous inscrire sans rendez-vous.<br><br>
                                 Les patients qui le désirent pourront recevoir des alertes textuelles ou vocales les prévenant de la proximité de leur tour.</p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                 </div>

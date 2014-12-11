@@ -78,6 +78,9 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="nav-lng fr">
+                                <a class="button-lng" href="../fr/index.html">FR</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,7 +132,12 @@
                         <h1 class="orange">Clinic Appointments</h1>
                         <div>
                             <p>Soon you will be able to schedule an appointment with your family physician and/or other services in this section. Please register to our newsletter so we can advise you when the process will begin.<br><br></p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <!-- <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a> -->
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                     <div class="service span5">
@@ -137,7 +145,11 @@
                         <div>
                             <p>Please click here if you wish to register to see a physician in the walk-in clinic. <br><br>
                                 Patients can be advised either by text message or voicemail when it is their turn to see the physician that same day.</p>
-                            <a class="bigbluebutton" href="https://cmq.io/Chronometriq" onclick="return ! window.open(this.href);">Chronometriq</a>
+                            <form action="https://cmq.io/Chronometriq" method="post">
+                                <input type="hidden" name="action" value="indi" />
+                                <input type="hidden" name="idClinic" value="41" />
+                                <input type="submit" class="bigbluebutton" value="CHRONOMETRIQ" />
+                            </form>
                         </div>
                     </div>
                 </div>
